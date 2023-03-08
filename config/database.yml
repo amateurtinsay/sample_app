@@ -85,4 +85,6 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['postgres://sample_app_database:ctGVPjx3tSCiYlSRtSt613hEDBIVtegb@dpg-cg45smfdvk4st71dafu0-a/sample_app_database_s7ox'] %>
+  database: sample_app_database
+  username: sample_app_database
